@@ -35,3 +35,13 @@ app.use((error, req, res, next) => {
 app.listen(port, () => console.log("Server is connected and running..."));
 
 module.exports = app;
+
+///{
+    //"firstname": "Ammar",
+    //"lastname": "Khatri",
+    //"email": "m",
+    //"password": "123",
+    //"country": "Pak",
+   // "status": "A",
+  //  "phonenumber": "200"
+//}

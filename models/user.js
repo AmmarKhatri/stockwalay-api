@@ -15,6 +15,7 @@ const User = db.define('user', {
     },
     email: {
         type: Sequelize.DataTypes.STRING,
+        primaryKey: true
     },
     password: {
         type: Sequelize.DataTypes.STRING,
